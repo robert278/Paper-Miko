@@ -1,0 +1,33 @@
+2D Overworld
+-Natural Platforming Script [easy]
+-Fall Off Damage Script [easy]
+-Enemy attacks dealing damage 
+-Enemy melee attacks first striking
+-Your 'Hammer' or 'Gohei' causing a first strike on collision
+-Later -- your Yin-yang causing first strike? or have a collider appear when you jump and check if that lands on an enemy's head
+-Text System
+-Menu System
+-Flip to 3D? 
+
+Battle System
+-Turn Based
+-Health and XP recorded after each battle
+-Action Command minigames
+-Battle Menu System
+
+For the "Demo"
+-Turn Based Battles
+-Health and XP recorded after each battle
+-Template for allowing Action Commands of different types to be added in
+	--Ideally, you read from a 'list' of Action Commands you can add to, each Action Command has customizable 'time when occurs' and 'button needed to be pressed' or do Random.int()
+-Battle Menu System
+
+
+Things to Fix:
+-Camera Flip Sticking
+
+***Character "coloring" UI
+***Level & Enemy Editor UI -> Sliders for custom Health, Attack, Defense and ability to let player color shapes or draw shapes
+
+
+Don't worry about first strike first -- assume all battles are collision only at first 
